@@ -7,6 +7,7 @@ import com.app.pojo.DevUser;
 import com.app.service.DevUserService;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -20,9 +21,9 @@ public class DevUserController {
      *  登录
      */
     @RequestMapping("/login")
-    public Result login(@RequestBody DevUser devUser){
-        System.out.println(devUser.getDevCode()+ "--" +devUser.getDevPassword());
-        DevUser devUser1 = devUserService.login(devUser);
+    public Result login(@RequestParam("devCode") String devCode, @RequestParam("devPassword") String devPassword){
+        System.out.println(devCode + "--" + devPassword);
+        DevUser devUser1 = devUserService.login(devCode, devPassword);
 
         if(devUser1 != null){
             return new Result(true, MessageConstant.GET_USERNAME_SUCCESS,devUser1);

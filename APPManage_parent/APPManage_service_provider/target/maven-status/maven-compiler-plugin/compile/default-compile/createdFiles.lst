@@ -1,3 +1,4 @@
+com\app\service\impl\APPCategoryServiceImpl.class
 com\app\dao\APPDictionaryDao.class
 com\app\dao\DevUserDao.class
 com\app\dao\APPMenuDao.class

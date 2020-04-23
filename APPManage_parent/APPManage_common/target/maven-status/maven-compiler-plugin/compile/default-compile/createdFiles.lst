@@ -8,6 +8,7 @@ com\app\constant\RedisMessageConstant.class
 com\app\pojo\BackendUser.class
 com\app\entity\QueryAppResult.class
 com\app\pojo\AdPromotion.class
+com\app\test\Test001.class
 com\app\constant\RedisConstant.class
 com\app\pojo\AppInfo.class
 com\app\utils\SMSUtils.class

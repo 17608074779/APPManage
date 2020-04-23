@@ -1,2 +1,3 @@
 com\app\controller\APPMenuController.class
 com\app\controller\DevUserController.class
+com\app\controller\APPCategoryController.class

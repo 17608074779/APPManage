@@ -21,7 +21,7 @@ public class MessageConstant {
     public static final String LOGIN_SUCCESS = "登录成功";
     public static final String VALIDATECODE_ERROR = "验证码输入错误";
     public static final String GET_USERNAME_SUCCESS = "获取当前登录用户名称成功";
-    public static final String GET_USERNAME_FAIL = "获取当前登录用户名称失败";
+    public static final String GET_USERNAME_FAIL = "用户名或密码错误！";
     public static final String GET_BUSINESS_REPORT_SUCCESS = "获取运营统计数据成功";
     public static final String GET_BUSINESS_REPORT_FAIL = "获取运营统计数据失败";
 }

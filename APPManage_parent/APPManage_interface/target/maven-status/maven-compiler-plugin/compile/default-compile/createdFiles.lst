@@ -1,2 +1,3 @@
+com\app\service\APPCategoryService.class
 com\app\service\APPMenuService.class
 com\app\service\DevUserService.class

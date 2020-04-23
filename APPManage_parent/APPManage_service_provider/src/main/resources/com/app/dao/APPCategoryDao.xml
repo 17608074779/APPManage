@@ -19,12 +19,12 @@
     </select>
 
     <!--通过一级分类名去查对应二级分类选项的更新操作-->
-    <select id="findCategoryLevel2" resultType="String" parameterType="String">
-        select categoryName from app_category where parentId = #{categoryLevel1}
+    <select id="findCategoryLevel2" resultType="String" parameterType="string">
+        select categoryName from app_category where parentId = (select id from app_category where categoryName = #{value})
     </select>
 
     <!--通过二级分类名去查对应三级分类选项的更新操作-->
-    <select id="findCategoryLevel3" resultType="String" parameterType="String">
-        select categoryName from app_category where parentId = #{categoryLevel2}
+    <select id="findCategoryLevel3" resultType="String" parameterType="string">
+        select categoryName from app_category where parentId = (select id from app_category where categoryName = #{value})
     </select>
 </mapper>

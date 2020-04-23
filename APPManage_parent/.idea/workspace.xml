@@ -2,11 +2,62 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b1e7a5b-a6dd-4da9-8edd-1cb7801446b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/APPManage_interface/src/main/java/com/app/service/APPCategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APPManage_common/src/main/java/com/app/test/Test001.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APPManage_backend/src/main/java/com/app/controller/APPMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/APPManage_backend/src/main/java/com/app/controller/APPMenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APPManage_service_provider/src/main/java/com/app/dao/APPCategoryDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/APPManage_service_provider/src/main/java/com/app/dao/APPCategoryDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_backend/src/main/java/com/app/controller/DevUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/APPManage_backend/src/main/java/com/app/controller/DevUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_backend/target/APPManage_backend-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/APPManage_backend/target/APPManage_backend-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_backend/target/APPManage_backend-1.0-SNAPSHOT/WEB-INF/classes/com/app/controller/APPMenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/APPManage_backend/target/APPManage_backend-1.0-SNAPSHOT/WEB-INF/classes/com/app/controller/APPMenuController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_backend/target/APPManage_backend-1.0-SNAPSHOT/WEB-INF/classes/com/app/controller/DevUserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/APPManage_backend/target/APPManage_backend-1.0-SNAPSHOT/WEB-INF/classes/com/app/controller/DevUserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_backend/target/APPManage_backend-1.0-SNAPSHOT/WEB-INF/lib/APPManage_common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/APPManage_backend/target/APPManage_backend-1.0-SNAPSHOT/WEB-INF/lib/APPManage_common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_backend/target/APPManage_backend-1.0-SNAPSHOT/WEB-INF/lib/APPManage_interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/APPManage_backend/target/APPManage_backend-1.0-SNAPSHOT/WEB-INF/lib/APPManage_interface-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_backend/target/classes/com/app/controller/APPMenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/APPManage_backend/target/classes/com/app/controller/APPMenuController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_backend/target/classes/com/app/controller/DevUserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/APPManage_backend/target/classes/com/app/controller/DevUserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_backend/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/APPManage_backend/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_backend/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/APPManage_backend/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_backend/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/APPManage_backend/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_backend/target/tomcat/conf/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_backend/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_backend/target/tomcat/conf/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_backend/target/tomcat/logs/access_log.2020-04-22" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_common/src/main/java/com/app/constant/MessageConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/APPManage_common/src/main/java/com/app/constant/MessageConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_common/target/APPManage_common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/APPManage_common/target/APPManage_common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_common/target/classes/com/app/constant/MessageConstant.class" beforeDir="false" afterPath="$PROJECT_DIR$/APPManage_common/target/classes/com/app/constant/MessageConstant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/APPManage_common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/APPManage_common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/APPManage_common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_interface/src/main/java/com/app/service/DevUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/APPManage_interface/src/main/java/com/app/service/DevUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_interface/target/APPManage_interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/APPManage_interface/target/APPManage_interface-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_interface/target/classes/com/app/service/DevUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/APPManage_interface/target/classes/com/app/service/DevUserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_interface/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/APPManage_interface/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_interface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/APPManage_interface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/APPManage_interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_service_provider/src/main/java/com/app/dao/DevUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/APPManage_service_provider/src/main/java/com/app/dao/DevUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_service_provider/src/main/java/com/app/service/impl/DevUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/APPManage_service_provider/src/main/java/com/app/service/impl/DevUserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APPManage_service_provider/src/main/resources/com/app/dao/APPCategoryDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/APPManage_service_provider/src/main/resources/com/app/dao/APPCategoryDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_service_provider/src/main/resources/com/app/dao/DevUserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/APPManage_service_provider/src/main/resources/com/app/dao/DevUserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_service_provider/target/APPManage_service_provider-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/APPManage_service_provider/target/APPManage_service_provider-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_service_provider/target/APPManage_service_provider-1.0-SNAPSHOT/WEB-INF/classes/com/app/dao/APPCategoryDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/APPManage_service_provider/target/APPManage_service_provider-1.0-SNAPSHOT/WEB-INF/classes/com/app/dao/APPCategoryDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_service_provider/target/APPManage_service_provider-1.0-SNAPSHOT/WEB-INF/classes/com/app/dao/APPCategoryDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/APPManage_service_provider/target/APPManage_service_provider-1.0-SNAPSHOT/WEB-INF/classes/com/app/dao/APPCategoryDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_service_provider/target/APPManage_service_provider-1.0-SNAPSHOT/WEB-INF/classes/com/app/dao/DevUserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/APPManage_service_provider/target/APPManage_service_provider-1.0-SNAPSHOT/WEB-INF/classes/com/app/dao/DevUserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_service_provider/target/APPManage_service_provider-1.0-SNAPSHOT/WEB-INF/classes/com/app/dao/DevUserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/APPManage_service_provider/target/APPManage_service_provider-1.0-SNAPSHOT/WEB-INF/classes/com/app/dao/DevUserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_service_provider/target/APPManage_service_provider-1.0-SNAPSHOT/WEB-INF/classes/com/app/service/impl/APPMenuServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/APPManage_service_provider/target/APPManage_service_provider-1.0-SNAPSHOT/WEB-INF/classes/com/app/service/impl/APPMenuServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_service_provider/target/APPManage_service_provider-1.0-SNAPSHOT/WEB-INF/classes/com/app/service/impl/DevUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/APPManage_service_provider/target/APPManage_service_provider-1.0-SNAPSHOT/WEB-INF/classes/com/app/service/impl/DevUserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_service_provider/target/APPManage_service_provider-1.0-SNAPSHOT/WEB-INF/lib/APPManage_common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/APPManage_service_provider/target/APPManage_service_provider-1.0-SNAPSHOT/WEB-INF/lib/APPManage_common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_service_provider/target/APPManage_service_provider-1.0-SNAPSHOT/WEB-INF/lib/APPManage_interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/APPManage_service_provider/target/APPManage_service_provider-1.0-SNAPSHOT/WEB-INF/lib/APPManage_interface-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_service_provider/target/classes/com/app/dao/APPCategoryDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/APPManage_service_provider/target/classes/com/app/dao/APPCategoryDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_service_provider/target/classes/com/app/dao/APPCategoryDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/APPManage_service_provider/target/classes/com/app/dao/APPCategoryDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_service_provider/target/classes/com/app/dao/DevUserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/APPManage_service_provider/target/classes/com/app/dao/DevUserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_service_provider/target/classes/com/app/dao/DevUserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/APPManage_service_provider/target/classes/com/app/dao/DevUserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_service_provider/target/classes/com/app/service/impl/APPMenuServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/APPManage_service_provider/target/classes/com/app/service/impl/APPMenuServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_service_provider/target/classes/com/app/service/impl/DevUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/APPManage_service_provider/target/classes/com/app/service/impl/DevUserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_service_provider/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/APPManage_service_provider/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_service_provider/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/APPManage_service_provider/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_service_provider/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/APPManage_service_provider/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_service_provider/target/tomcat/conf/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_service_provider/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_service_provider/target/tomcat/conf/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPManage_service_provider/target/tomcat/logs/access_log.2020-04-22" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,29 +90,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/APPManage_service_provider/src/main/java/com/app/dao/APPCategoryDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="34" column="57" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/APPManage_service_provider/src/main/resources/com/app/dao/APPCategoryDao.xml">
+        <entry file="file://$PROJECT_DIR$/APPManage_service_provider/src/main/java/com/app/service/impl/DevUserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="27" column="79" selection-start-line="27" selection-start-column="79" selection-end-line="27" selection-end-column="79" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/APPManage_backend/src/main/java/com/app/controller/APPCategoryController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2">
-              <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+            <state relative-caret-position="556">
+              <caret line="30" column="28" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,142 +103,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/APPManage_service_provider/src/main/java/com/app/dao/DevUserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/APPManage_service_provider/src/main/resources/com/app/dao/DevUserDao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/APPManage_service_provider/src/main/java/com/app/service/impl/APPCategoryServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="37" column="7" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="37" selection-end-column="7" />
+            <state relative-caret-position="155">
+              <caret line="30" column="62" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#226#227#0" expanded="true" />
-                <element signature="e#253#254#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/APPManage_common/src/main/java/com/app/entity/QueryAppResult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
-              <folding>
-                <element signature="e#600#601#0" expanded="true" />
-                <element signature="e#635#636#0" expanded="true" />
-                <element signature="e#691#692#0" expanded="true" />
-                <element signature="e#739#740#0" expanded="true" />
-                <element signature="e#773#774#0" expanded="true" />
-                <element signature="e#803#804#0" expanded="true" />
-                <element signature="e#849#850#0" expanded="true" />
-                <element signature="e#887#888#0" expanded="true" />
-                <element signature="e#925#926#0" expanded="true" />
-                <element signature="e#960#961#0" expanded="true" />
-                <element signature="e#1015#1016#0" expanded="true" />
-                <element signature="e#1063#1064#0" expanded="true" />
-                <element signature="e#1098#1099#0" expanded="true" />
-                <element signature="e#1129#1130#0" expanded="true" />
-                <element signature="e#1177#1178#0" expanded="true" />
-                <element signature="e#1217#1218#0" expanded="true" />
-                <element signature="e#1258#1259#0" expanded="true" />
-                <element signature="e#1295#1296#0" expanded="true" />
-                <element signature="e#1355#1356#0" expanded="true" />
-                <element signature="e#1407#1408#0" expanded="true" />
-                <element signature="e#1448#1449#0" expanded="true" />
-                <element signature="e#1485#1486#0" expanded="true" />
-                <element signature="e#1545#1546#0" expanded="true" />
-                <element signature="e#1597#1598#0" expanded="true" />
-                <element signature="e#1638#1639#0" expanded="true" />
-                <element signature="e#1675#1676#0" expanded="true" />
-                <element signature="e#1735#1736#0" expanded="true" />
-                <element signature="e#1787#1788#0" expanded="true" />
-                <element signature="e#1820#1821#0" expanded="true" />
-                <element signature="e#1849#1850#0" expanded="true" />
-                <element signature="e#1893#1894#0" expanded="true" />
-                <element signature="e#1929#1930#0" expanded="true" />
-                <element signature="e#1966#1967#0" expanded="true" />
-                <element signature="e#1998#1999#0" expanded="true" />
-                <element signature="e#2049#2050#0" expanded="true" />
-                <element signature="e#2091#2092#0" expanded="true" />
-                <element signature="e#2127#2128#0" expanded="true" />
-                <element signature="e#2159#2160#0" expanded="true" />
-                <element signature="e#2209#2210#0" expanded="true" />
-                <element signature="e#2251#2252#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/APPManage_common/src/main/java/com/app/pojo/DevUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1831#1832#0" expanded="true" />
-                <element signature="e#1862#1863#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/APPManage_common/src/main/java/com/app/entity/QueryPageBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="15" column="33" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="33" />
-              <folding>
-                <element signature="e#755#756#0" expanded="true" />
-                <element signature="e#789#790#0" expanded="true" />
-                <element signature="e#844#845#0" expanded="true" />
-                <element signature="e#890#891#0" expanded="true" />
-                <element signature="e#926#927#0" expanded="true" />
-                <element signature="e#957#958#0" expanded="true" />
-                <element signature="e#1006#1007#0" expanded="true" />
-                <element signature="e#1046#1047#0" expanded="true" />
-                <element signature="e#1085#1086#0" expanded="true" />
-                <element signature="e#1120#1121#0" expanded="true" />
-                <element signature="e#1176#1177#0" expanded="true" />
-                <element signature="e#1224#1225#0" expanded="true" />
-                <element signature="e#1257#1258#0" expanded="true" />
-                <element signature="e#1286#1287#0" expanded="true" />
-                <element signature="e#1330#1331#0" expanded="true" />
-                <element signature="e#1366#1367#0" expanded="true" />
-                <element signature="e#1407#1408#0" expanded="true" />
-                <element signature="e#1443#1444#0" expanded="true" />
-                <element signature="e#1502#1503#0" expanded="true" />
-                <element signature="e#1552#1553#0" expanded="true" />
-                <element signature="e#1587#1588#0" expanded="true" />
-                <element signature="e#1618#1619#0" expanded="true" />
-                <element signature="e#1666#1667#0" expanded="true" />
-                <element signature="e#1706#1707#0" expanded="true" />
-                <element signature="e#1749#1750#0" expanded="true" />
-                <element signature="e#1787#1788#0" expanded="true" />
-                <element signature="e#1850#1851#0" expanded="true" />
-                <element signature="e#1904#1905#0" expanded="true" />
-                <element signature="e#1945#1946#0" expanded="true" />
-                <element signature="e#1982#1983#0" expanded="true" />
-                <element signature="e#2042#2043#0" expanded="true" />
-                <element signature="e#2094#2095#0" expanded="true" />
-                <element signature="e#2135#2136#0" expanded="true" />
-                <element signature="e#2172#2173#0" expanded="true" />
-                <element signature="e#2232#2233#0" expanded="true" />
-                <element signature="e#2284#2285#0" expanded="true" />
-                <element signature="e#2325#2326#0" expanded="true" />
-                <element signature="e#2362#2363#0" expanded="true" />
-                <element signature="e#2422#2423#0" expanded="true" />
-                <element signature="e#2474#2475#0" expanded="true" />
-                <element signature="e#2513#2514#0" expanded="true" />
-                <element signature="e#2547#2548#0" expanded="true" />
-                <element signature="e#2602#2603#0" expanded="true" />
-                <element signature="e#2648#2649#0" expanded="true" />
-                <element signature="e#2687#2688#0" expanded="true" />
-                <element signature="e#2721#2722#0" expanded="true" />
-                <element signature="e#2776#2777#0" expanded="true" />
-                <element signature="e#2822#2823#0" expanded="true" />
-                <element signature="e#2861#2862#0" expanded="true" />
-                <element signature="e#2895#2896#0" expanded="true" />
-                <element signature="e#2950#2951#0" expanded="true" />
-                <element signature="e#2996#2997#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -228,7 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/APPManage_backend/src/main/java/com/app/test/Test.java" />
         <option value="$PROJECT_DIR$/APPManage_backend/src/main/java/com/test/Test01.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/APPManage_backend/src/main/java/com/test11/Test01.java" />
@@ -260,12 +183,7 @@
         <option value="$PROJECT_DIR$/APPManage_interface/pom.xml" />
         <option value="$PROJECT_DIR$/APPManage_common/src/main/java/com/app/pojo/DataDictionary.java" />
         <option value="$PROJECT_DIR$/APPManage_common/src/main/java/com/app/pojo/AdPromotion.java" />
-        <option value="$PROJECT_DIR$/APPManage_service_provider/src/main/resources/com/app/dao/DevUserDao.xml" />
-        <option value="$PROJECT_DIR$/APPManage_interface/src/main/java/com/app/service/DevUserService.java" />
         <option value="$PROJECT_DIR$/APPManage_interface/src/main/java/com/app/service/APPMenuService.java" />
-        <option value="$PROJECT_DIR$/APPManage_service_provider/src/main/java/com/app/dao/DevUserDao.java" />
-        <option value="$PROJECT_DIR$/APPManage_backend/src/main/java/com/app/controller/DevUserController.java" />
-        <option value="$PROJECT_DIR$/APPManage_service_provider/src/main/java/com/app/service/impl/DevUserServiceImpl.java" />
         <option value="$PROJECT_DIR$/APPManage_service_provider/src/main/java/com/app/dao/APPMenuDao.java" />
         <option value="$PROJECT_DIR$/APPManage_service_provider/src/main/java/com/app/dao/APPDictionaryDao.java" />
         <option value="$PROJECT_DIR$/APPManage_service_provider/src/main/resources/com/app/dao/APPDictionaryDao.xml" />
@@ -273,12 +191,18 @@
         <option value="$PROJECT_DIR$/APPManage_service_provider/src/main/resources/com/app/dao/APPMenuDao.xml" />
         <option value="$PROJECT_DIR$/APPManage_service_provider/src/main/java/com/app/service/impl/APPMenuServiceImpl.java" />
         <option value="$PROJECT_DIR$/APPManage_common/src/main/java/com/app/constant/MessageConstant.java" />
-        <option value="$PROJECT_DIR$/APPManage_backend/src/main/java/com/app/controller/APPMenuController.java" />
-        <option value="$PROJECT_DIR$/APPManage_backend/src/main/java/com/app/controller/APPCategoryController.java" />
+        <option value="$PROJECT_DIR$/APPManage_common/src/main/java/com/app/test/Test001.java" />
         <option value="$PROJECT_DIR$/APPManage_interface/src/main/java/com/app/service/APPCategoryService.java" />
-        <option value="$PROJECT_DIR$/APPManage_service_provider/src/main/java/com/app/service/impl/APPCategoryServiceImpl.java" />
         <option value="$PROJECT_DIR$/APPManage_service_provider/src/main/java/com/app/dao/APPCategoryDao.java" />
+        <option value="$PROJECT_DIR$/APPManage_backend/src/main/java/com/app/controller/APPCategoryController.java" />
+        <option value="$PROJECT_DIR$/APPManage_backend/src/main/java/com/app/controller/APPMenuController.java" />
         <option value="$PROJECT_DIR$/APPManage_service_provider/src/main/resources/com/app/dao/APPCategoryDao.xml" />
+        <option value="$PROJECT_DIR$/APPManage_backend/src/main/java/com/app/controller/DevUserController.java" />
+        <option value="$PROJECT_DIR$/APPManage_interface/src/main/java/com/app/service/DevUserService.java" />
+        <option value="$PROJECT_DIR$/APPManage_service_provider/src/main/java/com/app/service/impl/APPCategoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/APPManage_service_provider/src/main/java/com/app/service/impl/DevUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/APPManage_service_provider/src/main/java/com/app/dao/DevUserDao.java" />
+        <option value="$PROJECT_DIR$/APPManage_service_provider/src/main/resources/com/app/dao/DevUserDao.xml" />
       </list>
     </option>
   </component>
@@ -304,7 +228,47 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="APPManage_backend Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="APPManage_backend Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="APPManage_backend Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="tomcat7" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="APPManage_parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="APPManage_parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="APPManage_service_provider Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="APPManage_service_provider Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="APPManage_service_provider Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="tomcat7" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -517,6 +481,17 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="APPManage_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APPManage_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="APPManage_common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -700,45 +675,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="APPManage_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="APPManage_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.github.pagehelper:pagehelper:4.1.4" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="APPManage_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.github.pagehelper:pagehelper:4.1.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="pagehelper-4.1.4.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="APPManage_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.github.pagehelper:pagehelper:4.1.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="pagehelper-4.1.4.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="APPManage_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.github.pagehelper:pagehelper:4.1.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="pagehelper-4.1.4.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="github" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="APPManage_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.github.pagehelper:pagehelper:4.1.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="pagehelper-4.1.4.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="github" type="462c0819:PsiDirectoryNode" />
-              <item name="pagehelper" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -786,7 +722,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.APPManage_backend [tomcat7:run]">
+  <component name="RunManager" selected="Application.Test001">
+    <configuration name="Test001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.app.test.Test001" />
+      <module name="APPManage_common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.app.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="test01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.app.test01" />
       <module name="APPManage_backend" />
@@ -811,22 +760,6 @@
       <option name="PACKAGE_NAME" value="com.app.service.impl" />
       <option name="MAIN_CLASS_NAME" value="com.app.service.impl.APPMenuServiceImpl" />
       <option name="METHOD_NAME" value="show" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test01.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="APPManage_backend" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.app" />
-      <option name="MAIN_CLASS_NAME" value="com.app.test01" />
-      <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -884,11 +817,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test001" />
         <item itemvalue="Maven.APPManage_backend [tomcat7:run]" />
         <item itemvalue="Maven.APPManage_service_provider [tomcat7:run]" />
         <item itemvalue="JUnit.APPMenuServiceImpl.show" />
         <item itemvalue="Application.test01" />
-        <item itemvalue="JUnit.test01.test01" />
       </list>
     </recent_temporary>
   </component>
@@ -906,8 +839,16 @@
       <workItem from="1587389967631" duration="1456000" />
       <workItem from="1587430117934" duration="40339000" />
       <workItem from="1587516787057" duration="18144000" />
-      <workItem from="1587611419917" duration="9716000" />
+      <workItem from="1587611419917" duration="15936000" />
     </task>
+    <task id="LOCAL-00001" summary="基本写完">
+      <created>1587622814781</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587622814781</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -943,7 +884,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74194000" />
+    <option name="totallyTimeSpent" value="80414000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -956,9 +897,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.1924307" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1924307" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -968,7 +908,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.1583514" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.18004338" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.19609967" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -987,7 +927,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.22974414" />
+      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.22974414" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" weight="0.32995737" />
@@ -1031,14 +971,11 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="基本写完" />
+    <option name="LAST_COMMIT_MESSAGE" value="基本写完" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/APPManage_common/src/main/java/com/app/constant/RedisMessageConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="60" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/APPManage_common/src/main/java/com/app/pojo/AppVersion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -1168,13 +1105,6 @@
         <state relative-caret-position="-174" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/APPManage_interface/src/main/java/com/app/service/DevUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/APPManage_interface/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="91">
@@ -1196,16 +1126,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="24" selection-start-column="24" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/APPManage_service_provider/src/main/java/com/app/dao/DevUserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1331,16 +1251,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/APPManage_service_provider/src/main/java/com/app/service/impl/DevUserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/APPManage_service_provider/src/main/resources/com/app/dao/APPDictionaryDao.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="553">
@@ -1359,13 +1269,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
           <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/APPManage_service_provider/src/main/resources/com/app/dao/DevUserDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -1388,13 +1291,6 @@
         <state relative-caret-position="-2523" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/APPManage_common/src/main/java/com/app/entity/Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/APPManage_service_provider/src/main/resources/spring-redis.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -1409,13 +1305,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/APPManage_common/src/main/java/com/app/constant/MessageConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/APPManage_backend/src/main/resources/spring-mvc.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="349">
@@ -1423,29 +1312,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/APPManage_common/src/main/java/com/app/entity/PageResult.java">
+    <entry file="file://$PROJECT_DIR$/APPManage_common/src/main/java/com/app/entity/QueryAppResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="8" column="48" lean-forward="true" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/APPManage_backend/src/main/java/com/app/controller/DevUserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+        <state relative-caret-position="116">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/APPManage_backend/src/main/java/com/app/controller/APPMenuController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="29" column="7" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="29" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#773#774#0" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
+            <element signature="e#849#850#0" expanded="true" />
+            <element signature="e#887#888#0" expanded="true" />
+            <element signature="e#925#926#0" expanded="true" />
+            <element signature="e#960#961#0" expanded="true" />
+            <element signature="e#1015#1016#0" expanded="true" />
+            <element signature="e#1063#1064#0" expanded="true" />
+            <element signature="e#1098#1099#0" expanded="true" />
+            <element signature="e#1129#1130#0" expanded="true" />
+            <element signature="e#1177#1178#0" expanded="true" />
+            <element signature="e#1217#1218#0" expanded="true" />
+            <element signature="e#1258#1259#0" expanded="true" />
+            <element signature="e#1295#1296#0" expanded="true" />
+            <element signature="e#1355#1356#0" expanded="true" />
+            <element signature="e#1407#1408#0" expanded="true" />
+            <element signature="e#1448#1449#0" expanded="true" />
+            <element signature="e#1485#1486#0" expanded="true" />
+            <element signature="e#1545#1546#0" expanded="true" />
+            <element signature="e#1597#1598#0" expanded="true" />
+            <element signature="e#1638#1639#0" expanded="true" />
+            <element signature="e#1675#1676#0" expanded="true" />
+            <element signature="e#1735#1736#0" expanded="true" />
+            <element signature="e#1787#1788#0" expanded="true" />
+            <element signature="e#1820#1821#0" expanded="true" />
+            <element signature="e#1849#1850#0" expanded="true" />
+            <element signature="e#1893#1894#0" expanded="true" />
+            <element signature="e#1929#1930#0" expanded="true" />
+            <element signature="e#1966#1967#0" expanded="true" />
+            <element signature="e#1998#1999#0" expanded="true" />
+            <element signature="e#2049#2050#0" expanded="true" />
+            <element signature="e#2091#2092#0" expanded="true" />
+            <element signature="e#2127#2128#0" expanded="true" />
+            <element signature="e#2159#2160#0" expanded="true" />
+            <element signature="e#2209#2210#0" expanded="true" />
+            <element signature="e#2251#2252#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1511,10 +1422,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/APPManage_common/src/main/java/com/app/constant/MessageConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="12" column="54" lean-forward="true" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APPManage_common/src/main/java/com/app/entity/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APPManage_common/src/main/java/com/app/entity/PageResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-58">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APPManage_common/src/main/java/com/app/test/Test001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APPManage_interface/src/main/java/com/app/service/APPCategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APPManage_backend/src/main/java/com/app/controller/APPMenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-567">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APPManage_service_provider/src/main/java/com/app/dao/APPCategoryDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APPManage_backend/src/main/java/com/app/controller/APPCategoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="793">
+          <caret line="34" column="59" lean-forward="true" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APPManage_service_provider/src/main/resources/com/app/dao/APPCategoryDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/APPManage_common/src/main/java/com/app/pojo/DevUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="145">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1831#1832#0" expanded="true" />
@@ -1523,95 +1506,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/APPManage_interface/src/main/java/com/app/service/APPCategoryService.java">
+    <entry file="file://$PROJECT_DIR$/APPManage_backend/src/main/java/com/app/controller/DevUserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/APPManage_common/src/main/java/com/app/entity/QueryAppResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
-          <folding>
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#691#692#0" expanded="true" />
-            <element signature="e#739#740#0" expanded="true" />
-            <element signature="e#773#774#0" expanded="true" />
-            <element signature="e#803#804#0" expanded="true" />
-            <element signature="e#849#850#0" expanded="true" />
-            <element signature="e#887#888#0" expanded="true" />
-            <element signature="e#925#926#0" expanded="true" />
-            <element signature="e#960#961#0" expanded="true" />
-            <element signature="e#1015#1016#0" expanded="true" />
-            <element signature="e#1063#1064#0" expanded="true" />
-            <element signature="e#1098#1099#0" expanded="true" />
-            <element signature="e#1129#1130#0" expanded="true" />
-            <element signature="e#1177#1178#0" expanded="true" />
-            <element signature="e#1217#1218#0" expanded="true" />
-            <element signature="e#1258#1259#0" expanded="true" />
-            <element signature="e#1295#1296#0" expanded="true" />
-            <element signature="e#1355#1356#0" expanded="true" />
-            <element signature="e#1407#1408#0" expanded="true" />
-            <element signature="e#1448#1449#0" expanded="true" />
-            <element signature="e#1485#1486#0" expanded="true" />
-            <element signature="e#1545#1546#0" expanded="true" />
-            <element signature="e#1597#1598#0" expanded="true" />
-            <element signature="e#1638#1639#0" expanded="true" />
-            <element signature="e#1675#1676#0" expanded="true" />
-            <element signature="e#1735#1736#0" expanded="true" />
-            <element signature="e#1787#1788#0" expanded="true" />
-            <element signature="e#1820#1821#0" expanded="true" />
-            <element signature="e#1849#1850#0" expanded="true" />
-            <element signature="e#1893#1894#0" expanded="true" />
-            <element signature="e#1929#1930#0" expanded="true" />
-            <element signature="e#1966#1967#0" expanded="true" />
-            <element signature="e#1998#1999#0" expanded="true" />
-            <element signature="e#2049#2050#0" expanded="true" />
-            <element signature="e#2091#2092#0" expanded="true" />
-            <element signature="e#2127#2128#0" expanded="true" />
-            <element signature="e#2159#2160#0" expanded="true" />
-            <element signature="e#2209#2210#0" expanded="true" />
-            <element signature="e#2251#2252#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/APPManage_backend/src/main/java/com/app/controller/APPCategoryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2">
-          <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+        <state relative-caret-position="406">
+          <caret line="25" column="44" lean-forward="true" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APPManage_interface/src/main/java/com/app/service/DevUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APPManage_service_provider/src/main/java/com/app/dao/DevUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APPManage_service_provider/src/main/java/com/app/service/impl/DevUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="30" column="28" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APPManage_service_provider/src/main/resources/com/app/dao/DevUserDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/APPManage_service_provider/src/main/java/com/app/service/impl/APPCategoryServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="37" column="7" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="37" selection-end-column="7" />
+        <state relative-caret-position="155">
+          <caret line="30" column="62" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#226#227#0" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/APPManage_service_provider/src/main/resources/com/app/dao/APPCategoryDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="27" column="79" selection-start-line="27" selection-start-column="79" selection-end-line="27" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/APPManage_service_provider/src/main/java/com/app/dao/APPCategoryDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="34" column="57" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="57" />
         </state>
       </provider>
     </entry>

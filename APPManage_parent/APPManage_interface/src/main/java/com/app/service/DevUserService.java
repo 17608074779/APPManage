@@ -4,8 +4,9 @@ import com.app.pojo.DevUser;
 
 public interface DevUserService {
 
+
     /**
      * 用户登录
      */
-    DevUser login(DevUser devUser);
+    DevUser login(String devCode, String devPassword);
 }
