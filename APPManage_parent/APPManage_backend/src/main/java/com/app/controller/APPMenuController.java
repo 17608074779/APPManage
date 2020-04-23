@@ -6,6 +6,7 @@ import com.app.entity.PageResult;
 import com.app.entity.QueryAppResult;
 import com.app.entity.QueryPageBean;
 import com.app.entity.Result;
+import com.app.pojo.AppCategory;
 import com.app.pojo.AppInfo;
 import com.app.service.APPMenuService;
 import com.github.pagehelper.PageHelper;
@@ -51,6 +52,9 @@ public class APPMenuController {
         }
         return new Result(false, MessageConstant.QUERY_software_FAIL);
     }
+
+
+
 
 
 
