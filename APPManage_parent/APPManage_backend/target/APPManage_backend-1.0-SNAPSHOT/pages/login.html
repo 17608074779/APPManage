@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/vue.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <!-- 引入组件库 -->
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+</head>
+<body>
+    <div id="app">
+    账户：<input type="text" v-model="devUser.username"><br>
+    密码：<input type="password" v-model="devUser.password">
+        <input type="button" value="提交" @click="login()">
+    </div>
+    <script>
+        new Vue({
+            el:'#app',
+            data:{
+                devUser:{
+                    username: '',
+                    password: ''
+                }
+
+            },
+            methods: {
+                login(){
+                    axios.get('devUser/login', this.devUser).then((response) => {
+                        if(response.data.flag){
+                            window.location.href = '/page/success';
+                        }else{
+                           this.$message.error(response.data.message);
+                        }
+                    })
+                }
+            }
+        })
+    </script>
+
+
+
+</body>
+</html>

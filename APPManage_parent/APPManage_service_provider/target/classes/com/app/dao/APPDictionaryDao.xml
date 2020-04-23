@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.app.dao.APPDictionaryDao">
+
+   <!-- 通过statusId来查询状态 -->
+    <select id="findStatusByStatusId" resultType="String" parameterType="map">
+        select valueName from data_dictionary where typeCode=#{typeCode} and valueId=#{statusId}
+    </select>
+
+    <!-- 通过flatformId查询所属平台 -->
+    <select id="findFlatFormByflatformId" resultType="String" parameterType="map">
+        select valueName from data_dictionary where typeCode=#{typeCode} and valueId=#{flatformId}
+    </select>
+
+    <!-- 通过所属平台字符串去查所属平台的valueId -->
+    <select id="findflatformValueIdByflatformName" resultType="Integer" parameterType="map">
+        select valueId from data_dictionary where typeCode=#{typeCode} and valueName=#{valueName}
+    </select>
+
+    <!--通过状态字符串去查状态的valueId-->
+    <select id="findStatusValueIdByStatusName" resultType="Integer" parameterType="map">
+        select valueId from data_dictionary where typeCode=#{typeCode} and valueName=#{valueName}
+    </select>
+
+
+</mapper>

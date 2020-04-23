@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.app.dao.APPCategoryDao">
+
+    <!-- 通过categoryLevelId查分类名称 -->
+    <select id="findCategoryNameByCategoryId" resultType="String" parameterType="Integer">
+        select categoryName from app_category where id = #{categoryLevelId}
+    </select>
+
+    <!-- 通过分类字符串去查分类的Id -->
+    <select id="findCategoryIdByCategoryName" resultType="Integer" parameterType="String">
+        select id from app_category where categoryName = #{categoryName}
+    </select>
+
+</mapper>

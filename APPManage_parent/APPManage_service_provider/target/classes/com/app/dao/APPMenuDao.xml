@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.app.dao.APPMenuDao">
+
+    <select id="findByCondition" resultType="com.app.pojo.AppInfo" parameterType="com.app.entity.QueryPageBean">
+        select * from app_info
+        <where>
+            <if test="softwareName != null and softwareName != '' and softwareName.length > 0">
+                and softwareName like concat('%',#{softwareName},'%')
+            </if>
+            <if test="statusValueId != null">
+                and status = #{statusValueId}
+            </if>
+            <if test="flatFormValueID != null">
+                and flatformId = #{flatFormValueID}
+            </if>
+            <if test="categoryId1 != null and categoryId2 != null and categoryId3 != null">
+                and categoryLevel3 = #{categoryId3}
+            </if>
+            <if test="categoryId1 != null and categoryId2 != null and categoryId3 == null">
+                and categoryLevel2 = #{categoryId2}
+            </if>
+            <if test="categoryId1 != null and categoryId2 == null and categoryId3 == null">
+                and categoryLevel1 = #{categoryId1}
+            </if>
+
+        </where>
+    </select>
+
+    <select id="findAll" resultType="com.app.pojo.AppInfo">
+        select * from app_info
+    </select>
+
+
+
+</mapper>
