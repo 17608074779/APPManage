@@ -8,5 +8,5 @@ public interface DevUserService {
     /**
      * 用户登录
      */
-    DevUser login(String devCode, String devPassword);
+    DevUser login(DevUser devUser);
 }

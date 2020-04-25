@@ -25,11 +25,7 @@ public class DevUserServiceImpl implements DevUserService {
     }*/
 
     @Override
-    public DevUser login(String devCode, String devPassword) {
-        Map map = new HashMap();
-        map.put("devCode", devCode);
-        map.put("devPassword", devPassword);
-        DevUser devUser1 = devUserDao.login(map);
-        return devUser1;
+    public DevUser login(DevUser devUser) {
+        return devUserDao.login(devUser);
     }
 }

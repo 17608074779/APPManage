@@ -4,7 +4,7 @@
 <mapper namespace="com.app.dao.DevUserDao">
 
     <!--校验用户名和密码-->
-    <select id="login" parameterType="map" resultType="com.app.pojo.DevUser">
+    <select id="login" parameterType="com.app.pojo.DevUser" resultType="com.app.pojo.DevUser">
         select * from dev_user where devCode = #{devCode} and devPassword = #{devPassword}
     </select>
 

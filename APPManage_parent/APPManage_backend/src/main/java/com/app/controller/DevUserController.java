@@ -21,9 +21,8 @@ public class DevUserController {
      *  登录
      */
     @RequestMapping("/login")
-    public Result login(@RequestParam("devCode") String devCode, @RequestParam("devPassword") String devPassword){
-        System.out.println(devCode + "--" + devPassword);
-        DevUser devUser1 = devUserService.login(devCode, devPassword);
+    public Result login(@RequestBody DevUser devUser){
+        DevUser devUser1 = devUserService.login(devUser);
 
         if(devUser1 != null){
             return new Result(true, MessageConstant.GET_USERNAME_SUCCESS,devUser1);
