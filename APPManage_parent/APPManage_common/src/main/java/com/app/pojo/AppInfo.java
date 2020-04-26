@@ -8,30 +8,50 @@ import java.util.Date;
 
 public class AppInfo implements Serializable {
 
-    private Integer id;   //
+    private Integer id;//
     private String softwareName;
     private String APKName;
     private String supportROM;
     private String interfaceLanguage;
     private Float softwareSize;
-    private Date updateDate;
+    private String updateDate;//
     private Integer devId;
     private String appInfo;
     private Integer status;
-    private Date onSaleDate;
-    private Date offSaleDate;
+    private String onSaleDate;//
+    private String offSaleDate;//
     private Integer flatformId;
     private Integer categoryLevel3;
     private Integer downloads;
     private Integer createdBy;
-    private Date creationDate;
-    private Integer modifyBy;
-    private Date modifyDate;
+    private String creationDate;
+    private Integer modifyBy;//
+    private String modifyDate;//
     private Integer categoryLevel1;
     private Integer categoryLevel2;
     private String logoPicPath;
     private String logoLocPath;
-    private Integer versionId;
+    private Integer versionId;//
+
+    public AppInfo(String softwareName, String APKName, String supportROM, String interfaceLanguage, Float softwareSize, Integer devId, String appInfo, Integer status, Integer flatformId, Integer categoryLevel3, Integer downloads, Integer createdBy, String creationDate, Integer categoryLevel1, Integer categoryLevel2, String logoPicPath, String logoLocPath) {
+        this.softwareName = softwareName;
+        this.APKName = APKName;
+        this.supportROM = supportROM;
+        this.interfaceLanguage = interfaceLanguage;
+        this.softwareSize = softwareSize;
+        this.devId = devId;
+        this.appInfo = appInfo;
+        this.status = status;
+        this.flatformId = flatformId;
+        this.categoryLevel3 = categoryLevel3;
+        this.downloads = downloads;
+        this.createdBy = createdBy;
+        this.creationDate = creationDate;
+        this.categoryLevel1 = categoryLevel1;
+        this.categoryLevel2 = categoryLevel2;
+        this.logoPicPath = logoPicPath;
+        this.logoLocPath = logoLocPath;
+    }
 
     public Integer getId() {
         return id;
@@ -81,11 +101,11 @@ public class AppInfo implements Serializable {
         this.softwareSize = softwareSize;
     }
 
-    public Date getUpdateDate() {
+    public String getUpdateDate() {
         return updateDate;
     }
 
-    public void setUpdateDate(Date updateDate) {
+    public void setUpdateDate(String updateDate) {
         this.updateDate = updateDate;
     }
 
@@ -113,19 +133,19 @@ public class AppInfo implements Serializable {
         this.status = status;
     }
 
-    public Date getOnSaleDate() {
+    public String getOnSaleDate() {
         return onSaleDate;
     }
 
-    public void setOnSaleDate(Date onSaleDate) {
+    public void setOnSaleDate(String onSaleDate) {
         this.onSaleDate = onSaleDate;
     }
 
-    public Date getOffSaleDate() {
+    public String getOffSaleDate() {
         return offSaleDate;
     }
 
-    public void setOffSaleDate(Date offSaleDate) {
+    public void setOffSaleDate(String offSaleDate) {
         this.offSaleDate = offSaleDate;
     }
 
@@ -161,11 +181,11 @@ public class AppInfo implements Serializable {
         this.createdBy = createdBy;
     }
 
-    public Date getCreationDate() {
+    public String getCreationDate() {
         return creationDate;
     }
 
-    public void setCreationDate(Date creationDate) {
+    public void setCreationDate(String creationDate) {
         this.creationDate = creationDate;
     }
 
@@ -177,11 +197,11 @@ public class AppInfo implements Serializable {
         this.modifyBy = modifyBy;
     }
 
-    public Date getModifyDate() {
+    public String getModifyDate() {
         return modifyDate;
     }
 
-    public void setModifyDate(Date modifyDate) {
+    public void setModifyDate(String modifyDate) {
         this.modifyDate = modifyDate;
     }
 
@@ -234,19 +254,19 @@ public class AppInfo implements Serializable {
                 ", supportROM='" + supportROM + '\'' +
                 ", interfaceLanguage='" + interfaceLanguage + '\'' +
                 ", softwareSize=" + softwareSize +
-                ", updateDate=" + updateDate +
+                ", updateDate='" + updateDate + '\'' +
                 ", devId=" + devId +
                 ", appInfo='" + appInfo + '\'' +
                 ", status=" + status +
-                ", onSaleDate=" + onSaleDate +
-                ", offSaleDate=" + offSaleDate +
+                ", onSaleDate='" + onSaleDate + '\'' +
+                ", offSaleDate='" + offSaleDate + '\'' +
                 ", flatformId=" + flatformId +
                 ", categoryLevel3=" + categoryLevel3 +
                 ", downloads=" + downloads +
                 ", createdBy=" + createdBy +
-                ", creationDate=" + creationDate +
+                ", creationDate='" + creationDate + '\'' +
                 ", modifyBy=" + modifyBy +
-                ", modifyDate=" + modifyDate +
+                ", modifyDate='" + modifyDate + '\'' +
                 ", categoryLevel1=" + categoryLevel1 +
                 ", categoryLevel2=" + categoryLevel2 +
                 ", logoPicPath='" + logoPicPath + '\'' +

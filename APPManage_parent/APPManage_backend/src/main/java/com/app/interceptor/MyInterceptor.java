@@ -17,6 +17,7 @@ public class MyInterceptor implements HandlerInterceptor {
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         String devCode = jedisPool.getResource().get("devCode");
+        // 不为空说明还没有注销，没有过期，则可放行
         if(!StringUtils.isEmpty(devCode) && devCode.length()>0){
             return true;
         }else{

@@ -1,16 +1,19 @@
 package com.app.test;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class Test001 {
     public static void main(String[] args) {
-        List<String> list = new ArrayList<>();
-        list.add("哈哈");
-        list.add("赫赫");
-        list.add("黑黑");
-        for (String s : list) {
+        Map map = new HashMap();
+        map.put("02", "aa");
+        map.put("01", "5");
+        map.put("05", "bb");
+        map.put("05", "456");
+        /*Set set = map.entrySet();
+        for (Object s: set) {
             System.out.println(s);
-        }
+        }*/
+        System.out.println(map.get("0001"));
+
     }
 }

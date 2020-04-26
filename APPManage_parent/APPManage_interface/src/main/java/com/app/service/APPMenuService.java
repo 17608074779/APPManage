@@ -5,6 +5,7 @@ import com.app.entity.QueryPageBean;
 import com.app.pojo.AppInfo;
 
 import java.util.List;
+import java.util.Map;
 
 
 public interface APPMenuService {
@@ -17,4 +18,7 @@ public interface APPMenuService {
     PageResult findAppInfo(QueryPageBean queryPageBean);
 
     List<AppInfo> findAll();
+
+    //新增软件
+    void addAppInfo(Map map);
 }

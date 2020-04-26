@@ -32,6 +32,12 @@
         select * from app_info
     </select>
 
+    <select id="addAppInfo" parameterType="com.app.pojo.AppInfo">
+        insert into
+         app_info(softwareName,APKName,supportROM,interfaceLanguage,softwareSize,devId,appInfo,status,flatformId,categoryLevel3,downloads,createdBy,creationDate,categoryLevel1,categoryLevel2,logoPicPath,logoLocPath)
+          values(#{softwareName},#{APKName},#{supportROM},#{interfaceLanguage},#{softwareSize},#{devId},#{appInfo},#{status},#{flatformId},#{categoryLevel3},#{downloads},#{createdBy},#{creationDate},#{categoryLevel1},#{categoryLevel2},#{logoPicPath},#{logoLocPath})
+    </select>
+
 
 
 </mapper>

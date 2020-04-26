@@ -1,24 +1,21 @@
 package com.app.service.impl;
 
 import com.alibaba.dubbo.config.annotation.Service;
-import com.app.dao.APPCategoryDao;
-import com.app.dao.APPDictionaryDao;
-import com.app.dao.APPMenuDao;
-import com.app.dao.APPVersionDao;
+import com.app.dao.*;
 import com.app.entity.PageResult;
 import com.app.entity.QueryAppResult;
 import com.app.entity.QueryPageBean;
 import com.app.pojo.AppInfo;
+import com.app.pojo.DevUser;
 import com.app.service.APPMenuService;
+import com.app.utils.DateUtils;
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
+import redis.clients.jedis.JedisPool;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 @Service(interfaceClass = APPMenuService.class)
 @Transactional
@@ -35,6 +32,12 @@ public class APPMenuServiceImpl implements APPMenuService {
 
     @Autowired
     private APPCategoryDao appCategoryDao;
+
+    @Autowired
+    private JedisPool jedisPool;
+
+    @Autowired
+    private DevUserDao devUserDao;
 
     /**
      * 查询AppInfo的详情信息 + 条件查询
@@ -164,6 +167,64 @@ public class APPMenuServiceImpl implements APPMenuService {
         return appMenuDao.findAll();
     }
 
+    /**
+     * 新增一条软件信息
+     * @param map
+     * @return
+     */
+    @Override
+    public void addAppInfo(Map map) {
+        String flatForm = (String) map.get("flatForm");     //获取所属平台
+        String categoryLevel1 = (String) map.get("categoryLevel1");//获取一级分类name
+        String categoryLevel2 = (String) map.get("categoryLevel2");//获取二级分类name
+        String categoryLevel3 = (String) map.get("categoryLevel3");//获取三级分类name
+        String status = (String) map.get("status");         //获取状态
+        Integer flatFormValueID = this.findflatformValueIdByflatformName(flatForm);//获取所属平台Id
+        Integer categoryId1 = this.findCategoryIdByCategoryName(categoryLevel1);//获取一级分类Id
+        Integer categoryId2 = this.findCategoryIdByCategoryName(categoryLevel2);//获取二级分类Id
+        Integer categoryId3 = this.findCategoryIdByCategoryName(categoryLevel3);//获取三级分类Id
+        Integer statusValueId = this.findStatusValueIdByStatusName(status);     //获取状态Id
+        //获取开发者id（即创建者id）
+        String devCode = jedisPool.getResource().get("devCode");
+        DevUser devUser = devUserDao.findAll();
+        Integer devUserId = devUser.getId();    //开发者id
+        Integer createdBy = devUser.getCreatedBy();//创建者id
+
+        /*map.put("flatForm", flatFormValueID);
+        map.put("categoryLevel1", categoryId1);
+        map.put("categoryLevel2", categoryId2);
+        map.put("categoryLevel3", categoryId3);
+        map.put("status", statusValueId);
+        map.put("logoLocPath", map.get("logoPicPath"));*/
+        //将数据注入AppInfo中，再新增
+        AppInfo appInfo = null;
+        try {
+            appInfo = new AppInfo(
+                    (String)map.get("softwareName"),
+                    (String)map.get("APKName"),
+                    (String)map.get("supportROM"),
+                    (String)map.get("interfaceLanguage"),
+                    (Float) map.get("softwareSize"),
+                    devUserId,
+                    (String)map.get("appInfo"),
+                    statusValueId,
+                    flatFormValueID,
+                    categoryId3,
+                    0,
+                    createdBy,       //创建者id就是当前开发者的id
+                    DateUtils.parseDate2String(new Date(), "yyyy.MM.dd-HH:mm:ss"),
+                    categoryId1,
+                    categoryId2,
+                    (String)map.get("logoPicPath"),
+                    (String)map.get("logoPicPath")  //服务器图片路径就在图片路径中
+            );
+        } catch (Exception e) {
+            System.out.println("代码走catch了。。。。");
+            e.printStackTrace();
+        }
+        appMenuDao.addAppInfo(appInfo);
+
+    }
 
     /**
      * 通过分类字符串去查分类的Id

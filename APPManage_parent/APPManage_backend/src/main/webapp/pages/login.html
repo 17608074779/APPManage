@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../statics/js/Bootstrap/bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../statics/css/login.css">
+    <script src="../statics/js/jquery/jquery.min.js"></script>
+    <script src="../statics/js/Bootstrap/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <script src="../statics/js/login.js"></script>
+</head>
+
+<body>
+    <div>
+        <div class="content">
+            <div class='appBox'>
+                <span>——————</span>
+                <span class='app-title'>APP开发者平台</span>
+                <span>——————</span>
+            </div>
+            <form>
+                <div class="form-group">
+                    <input type="text" placeholder="请输入用户名" class="form-control username" name="devCode">
+                    <span class="user"></span>
+                </div>
+                <div class="form-group">
+                    <input type="password" placeholder="请输入密码" class="form-control password" maxlength="16" name="devPassword"> 
+                    <span class="pass"></span>
+                </div>
+                <div class="btnBox">
+                    <button type="button" class="btn btn-info login">登录</button>
+                    <button type="button" class="btn  btn2 reset">重填</button>
+                </div>
+            </form>
+        </div>
+        <p class='res'>&copy;2020 All Rights Reserved</p>
+    </div>
+
+    <div class="modal fade reseter" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <p>是否重置&hellip;</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default cancel" data-dismiss="modal" value='1'>取消</button>
+                    <button type="button" class="btn btn-primary sure" data-dismiss="modal" value="2">确定</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+</body>
+
+</html>
