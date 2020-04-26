@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../statics/js/Bootstrap/bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../statics/css/App.css">
+    <script src="../statics/js/jquery/jquery.min.js"></script>
+    <script src="../statics/js/Bootstrap/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <script src="../statics/js/App.js"></script>
+</head>
+
+<body>
+    <div class="content">
+        <div class="app-left">
+            <div class="logo">
+                <img src="../statics/image/timg.jpg" alt="" width="40" class="img-circle">
+                <span>APP BMS</span>
+            </div>
+            <div class="user-info">
+                <div class="user-img">
+                    <img src="../statics/image/user.jpg" alt='' width="80%">
+                </div>
+                <span style="color: #dbdbdb;">Welcome</span>
+                <span class="session_user">test001</span>
+                <br>
+                <span>测试用户001</span>
+            </div>
+            <div class="appfn_model">
+                <div class="Appuser_manager">
+                    <ul>
+                        <li>
+                            <a href="javascript:;" class="dropdown1_open">
+                                <span class='glyphicon glyphicon-home'></span>
+                                <span class="text-align">APP账户管理</span>
+                                <span class='glyphicon glyphicon-chevron-down drown-right'></span>
+                            </a>
+                            <ul class="dropdown_1">
+                                <li>
+                                    <a href="javascript:;">APP开发账户申请</a>
+                                    <a href="javascript:;">个人信息维护</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class='App_manager'>
+                    <ul>
+                        <li>
+                            <a href="javascript:;" class="dropdown2_open">
+                                <span class='glyphicon glyphicon-edit'></span>
+                                <span class="text-align">APP应用管理</span>
+                                <span class='glyphicon glyphicon-chevron-down drown-right'></span>
+                            </a>
+                            <ul class="dropdown_2">
+                                <li>
+                                    <a href="javascript:;" class='open_appinfo'>APP维护</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bottom_tool">
+                <ul>
+                    <li>
+                        <a href="javascript:;" class="glyphicon glyphicon-cog"></a>
+                        <a href="javascript:;" class="glyphicon glyphicon-fullscreen"></a>
+                        <a href="javascript:;" class="glyphicon glyphicon-eye-close"></a>
+                        <a href="javascript:;" class="glyphicon glyphicon-off"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="app-right">
+            <div class='user_banner'>
+                <div class="banner_left">
+                    <a href='javascript:;' class="glyphicon glyphicon-menu-hamburger shrink
+                    "></a>
+                </div>
+                <div class="banner_right">
+                    <div class="login_out">
+                        <img src="../statics/image/user.jpg" alt="" width="40">
+                        <span>test001</span>
+                        <span class="glyphicon glyphicon-menu-down"></span>
+                    </div>
+                    <div class="login_out_extend">
+                        <span>Log Out</span>
+                        <span class='glyphicon glyphicon-log-out log_out'></span>
+                    </div>
+                </div>
+            </div>
+            <div class="WelCome">
+                <h2>欢迎你: 测试账户001|角色: 开发者账户</h2>
+            </div>
+            <div class='App_info'>
+                <div class="App_info_class">
+                    <div class="App_title">
+                        <span>APP信息管理维护</span>
+                        <span class="glyphicon glyphicon-user"></span>
+                        <span class="Tips">测试账户001- 您可以通过搜索或者其他的筛选对APP的信息进行修改、删除等操作。(#^.^#)</span>
+                    </div>
+                    <div class="App_class_option">
+                        <form action="javascript:;">
+                            <label for="app_name">软件名称</label>
+                            <input type="text" id='app_name'>
+                            <label for="state">APP状态</label>
+                            <select name="app_state" id="state">
+                                <option value="请选择">--请选择--</option>
+                            </select>
+                            <label for="platform">所属平台</label>
+                            <select name="app_platform" id="platform">
+                                <option value="请选择">--请选择--</option>
+                            </select>
+                            <br>
+                            <label for="classA">一级分类</label>
+                            <select name="classA" id="classA">
+                                <option value="请选择">--请选择--</option>
+                            </select>
+                            <label for="classB">二级分类</label>
+                            <select name="classB" id="classB">
+                                <option value="请选择">--请选择--</option>
+                            </select>
+                            <label for="classC">三级分类</label>
+                            <select name="classC" id="classC">
+                                <option value="请选择">--请选择--</option>
+                            </select>
+                            <button class="btn btn-info">查询</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="App_info_List">
+                    <button class="btn btn-info new_app">新增APP基础信息</button>
+                    <div class="app_prod_list">
+                        <table class="table table-bordered table-striped">
+                            <thead>
+                                <th>软件名称</th>
+                                <th>APK名称</th>
+                                <th>软件大小(单位:M)</th>
+                                <th>所属平台</th>
+                                <th>所属分类(一级分类、二级分类、三级分类)</th>
+                                <th>状态</th>
+                                <th>下载次数</th>
+                                <th>最新版本号</th>
+                                <th>操作</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>123123</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <p class="page">共xx记录 xx/xx页</p>
+                    <div class="page_sw">
+                        <span>
+                            <button class="btn">上一页</button>
+                            <button class="btn">下一页</button>
+                            <button class="btn">最后一页</button>
+                        </span>
+                    </div>
+                    <p class="bottom_copyright">&copy;2020 All Rights Reserved</p>
+                </div>
+            </div>
+            <div class="add_app">
+                <div class="addapp_content">
+                    <div class="addapp_mes">
+                        <span>新增APP基础信息</span>
+                        <span class="glyphicon glyphicon-user"></span>
+                        <span class="Tips2">测试用户001</span>
+                    </div>
+                    <form action="javascript:;">
+                        <label for="appName">软件名称*</label>
+                        <input id="appName" type="text" class="form-control" placeholder="请输入软件名称">
+                        <br>
+                        <label for="apkName">APK名称*</label>
+                        <input id="apkName" type="text" class="form-control" placeholder="请输入APK名称">
+                        <br>
+                        <label for="Rom">支持ROM*</label>
+                        <input id="Rom" type="text" class="form-control" placeholder="请输入支持的ROM">
+                        <br>
+                        <label for="language">界面语言*</label>
+                        <input id="language" type="text" class="form-control" placeholder="请输入软件支持的界面语言">
+                        <br>
+                        <label for="size">软件大小*</label>
+                        <input id='size' type="text" class="form-control" placeholder="请输入软件大小,单位为Mb">
+                        <br>
+                        <label for="count">下载次数*</label>
+                        <input id='count' type="text" class="form-control" placeholder="请输入下载次数">
+                        <br>
+                        <label for="select-platform">所属平台*</label>
+                        <select name="" id="select-platform">
+                            <option value=""></option>
+                        </select>
+                        <br>
+                        <label for="class_a">一级分类*</label>
+                        <select name="" id="class_a">
+                            <option value=""></option>
+                        </select>
+                        <br>
+                        <label for="class_b">二级分类*</label>
+                        <select name="" id="class_b">
+                            <option value=""></option>
+                        </select>
+                        <br>
+                        <label for="class_c">三级分类*</label>
+                        <select name="" id=class_c>
+                            <option value=""></option>
+                        </select>
+                        <br>
+                        <label for="" style="margin-left: -850px;">APP状态*</label>
+                        <span>待审核</span>
+                        <br>
+                        <label for="brief_introduction" style="position: relative;top: -20px;">应用简介*</label>
+                        <textarea name="" id="brief_introduction" style="resize: none;"></textarea>
+                        <br>
+                        <label for="">LOGO图片*</label>
+                        <input type="file">
+                    </form>
+                    <div class='btns'>
+                        <button class="btn btn-success preservation">保存</button>
+                        <button class="btn btn-primary back">返回</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="open_appleft">
+            <a href="javascript:;" class="glyphicon glyphicon-menu-right sw_appleft"></a>
+        </div>
+    </div>
+</body>
+
+</html>

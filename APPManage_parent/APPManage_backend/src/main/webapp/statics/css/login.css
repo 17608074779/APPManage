@@ -1,0 +1,62 @@
+* {
+    background-color: #f4f4f4;
+}
+
+.content {
+    width: 500px;
+    height: 420px;
+    margin: auto auto;
+    margin-top: 170px;
+    border-bottom: 1px solid #c0c0cc;
+}
+
+.appBox {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.app-title {
+    font-size: 40px;
+    vertical-align: middle;
+}
+
+
+.form-control {
+    height: 45px;
+
+}
+.form-group {
+    height: 90px;
+}
+.form-group span {
+    display: inline-block;
+    width: 100%;
+    line-height: 45px;
+    color: red;
+}
+.btn {
+    width: 60px;
+    height: 40px;
+    border-radius: 5px
+}
+
+.btn2 {
+    color: #ffff;
+    background: black;
+}
+
+.btnBox {
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+.btnBox button {
+    margin: 0 10px;
+}
+.res {
+    margin-top: 5px;
+    font-size: 18px;
+    text-align: center;
+}

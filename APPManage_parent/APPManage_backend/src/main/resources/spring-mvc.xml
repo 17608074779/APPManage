@@ -45,5 +45,17 @@
         <property name="defaultEncoding" value="UTF-8"/>
     </bean>
 
+    <!--拦截器-->
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <!--拦截所有请求-->
+            <mvc:mapping path="/**"/>
+            <!--配置不被拦截的请求-->
+            <mvc:exclude-mapping path="/devUser/login.do"/>
+            <bean class="com.app.interceptor.MyInterceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
+
+
     <import resource="spring-redis.xml"></import>
 </beans>

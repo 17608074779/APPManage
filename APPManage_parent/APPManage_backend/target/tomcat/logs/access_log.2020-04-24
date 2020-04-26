@@ -1,5 +1,0 @@
-127.0.0.1 - - [24/Apr/2020:17:08:31 +0800] "GET /devUser/login.do HTTP/1.1" 200 66 http-bio-82-exec-1 484
-127.0.0.1 - - [24/Apr/2020:17:11:21 +0800] "GET /devUser/login.do HTTP/1.1" 200 66 http-bio-82-exec-3 22
-127.0.0.1 - - [24/Apr/2020:17:11:39 +0800] "GET /app/findAppInfo HTTP/1.1" 404 981 http-bio-82-exec-4 5
-192.168.226.1 - - [24/Apr/2020:17:11:47 +0800] "GET /app/findAppInfo.do HTTP/1.1" 200 3089 http-bio-82-exec-6 179
-127.0.0.1 - - [24/Apr/2020:17:12:10 +0800] "GET /category/findCategoryLevel1.do HTTP/1.1" 200 89 http-bio-82-exec-5 25

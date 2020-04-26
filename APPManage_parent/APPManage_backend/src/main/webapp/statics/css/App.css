@@ -1,0 +1,363 @@
+
+.content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /* overflow-x: hidden; */
+}
+::selection {
+    background-color: transparent;
+  }
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #fff;
+}
+a {
+    color: #fff;
+}
+.app-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 240px;
+    height: 968px;
+    background: #30475e;
+    color: #ffffff;
+    z-index: 999;
+}
+.app-right {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 968px;
+    padding-left: 240px;
+    box-sizing: border-box;
+}
+
+
+.open_appleft {
+    position: absolute;
+    left: -40px;
+    width: 40px;
+    height: 968px;
+    background: #30475e;
+}
+.sw_appleft {
+    position: absolute;
+    font-size: 24px;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%,-50%)
+}
+
+/* 左侧功能 */
+.app-left .logo {
+    width: 100%;
+    text-indent: 1em;
+    line-height: 60px;
+    text-align: left;
+    font-size: 20px;
+
+}
+.app-left .user-info {
+    position: relative;
+    width: 100%;
+    height: 130px;
+}
+.app-left .user-info span {
+    margin-left: 15px;
+}
+.user-img {
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 15px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    line-height: 60px;
+    background: #fff;
+    text-align: center;
+    vertical-align: middle;
+}
+.session_user{
+    position: absolute;
+    top:60px;
+    left: 80px;
+}
+
+.appfn_model {
+    width: 100%;
+    height: 720px;
+    border: 1px solid transparent;
+    background: #30475e;
+
+}
+.appfn_model li {
+    list-style: none;
+}
+.Appuser_manager，
+.App_manager{
+    width: 100%;
+    height: 100%;
+}
+.Appuser_manager>ul,
+.App_manager>ul {
+        margin-top: 15px;
+        text-indent: 5px;   
+}
+.Appuser_manager a:hover,
+.App_manager a:hover {
+    background: rgba(0, 0, 0, .3);
+}
+.Appuser_manager ul,
+.App_manager ul
+  {
+   padding: 0;
+}
+.Appuser_manager a,
+.App_manager a{
+    display: block;
+    width: 100%;
+    line-height: 45px;
+    color: #dcd6f7;
+    transition: all 0.3s;
+}
+.drown-right {
+    position: relative;
+    right: -80px;
+}
+.text-align {
+    margin-left: 10px;
+}
+.dropdown_1,
+.dropdown_2 {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.dropdown_1 a,
+.dropdown_2 a{
+    text-indent: 36px;
+}
+.bottom_tool{
+    width: 100%;
+    height: 40px;
+    margin-top: 17px;
+    background: rgba(0,0, 0, .3);
+}
+.bottom_tool li {
+    float: left;
+    list-style: none;
+    
+}
+.bottom_tool a {
+    color: #dcd6f7;
+    opacity: 0.5;
+    display: inline-block;
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+}
+
+/* 右边 */
+.user_banner {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #dbdbdb;
+    padding-left: 240px;
+    box-sizing: border-box;
+}
+.banner_left {
+    width: 40px;
+    height: 40px;
+    margin: 10px 20px;
+}
+.shrink {
+    font-size: 30px;
+    color: #6983aa;
+}
+.shrink:hover,
+.shrink:focus {
+    color: #6983aa;
+}
+
+
+.banner_right {
+    position: absolute;
+    right: 0px;
+    top: 0;
+    width: 150px;
+    height: 60px;
+    background: #f0f0f0;
+    line-height: 60px;
+    text-align: center;
+    color: #3b6978;
+}
+.login_out:hover {
+    cursor: pointer;
+}
+.log_out:hover{
+    cursor: pointer;
+}
+.login_out_extend {
+    position: absolute;
+    right: 0;
+    width: 200px;
+    height: 45px;
+    display: none;
+    line-height: 45px;
+    background: #fff;
+    text-align: left;
+    text-indent: 10px;
+    border: 1px solid #f0f0f0;
+    z-index: 999;
+}
+
+
+
+/* 右边内容 */
+.WelCome {
+    margin: 70px;
+    width: 600px;
+    left: 20px;
+}
+.App_info {
+    margin-top: 60px;
+    border: 1px solid transparent;
+    width: 100%;
+    height: 908px;
+    background: #f0f0f0;
+    display: none;
+}
+.App_info_class {
+    margin: 10px 40px;
+    width: 1600px;
+    height: 240px;
+    border: 1px solid #dbdbdb;
+    background: #fff;
+}
+.App_info_List {
+    position: relative;
+    margin: 0 40px;
+    width: 1600px;
+    height: 630px;
+    background: #fff;
+    border: 1px solid #dbdbdb;
+}
+.App_title {
+    width: 1550px;
+    margin: 10px auto;
+    font-size: 20px;
+    color: #16817a;
+}
+.Tips {
+    font-size: 16px;
+    color: #85a392;
+}
+.App_class_option {
+    margin: 0 auto;
+    width: 1550px;
+    height: 180px;
+    border-top: 2px solid #eae7d9;
+}
+.App_info .App_class_option input,.App_class_option select {
+    width: 155px;
+    height: 35px;
+    text-indent: 10px;
+    margin: 20px;
+}
+.App_class_option .btn {
+    font-size: 16px;
+}
+
+.App_info_List .new_app {
+    margin: 20px;
+}
+
+.app_prod_list {
+    width: 1550px;
+    margin: 0 auto;
+    height: 450px;
+    border: 1px solid #eae7d9;
+}
+.page {
+    margin: 20px;
+}
+.page_sw {
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+}
+.page_sw button {
+    background: #ededed;
+    color: #12cad6;
+}
+.bottom_copyright {
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+}
+
+.add_app {
+    margin-top: 60px;
+    width: 100%;
+    height: 908px;
+    background: #f0f0f0;
+    display: none;
+}
+.addapp_content {
+    position: relative;
+    top: 25px;
+    margin: 0 auto;
+    width: 1640px;
+    height: 860px;
+    border: 1px solid #d2c6b2;
+}
+.addapp_mes {
+    width: 1550px;
+    margin: 20px auto;
+    font-size: 20px;
+    color: #16817a;
+} 
+.Tips2 {
+    font-size: 16px;
+    color: #85a392;
+}
+.addapp_content form {
+    width: 1550px;
+    height: 700px;
+    margin: 0 auto;
+    border-top: 2px solid #84a9ac;
+    border-bottom: 1px solid #84a9ac;
+    text-align: center;
+    padding: 10px 0;
+    color:#00909e
+}
+.addapp_content form  label {
+    margin: 15px;
+}
+.add_app .addapp_content form input,
+.add_app .addapp_content form select{
+    display: inline-block;
+    width: 900px;
+    height: 35px;
+}
+.addapp_content form textarea {
+    display: inline-block;
+    width: 900px;
+    height: 55px;
+}
+.addapp_content form  select {
+    margin: 0;
+}
+.addapp_content .btns {
+    margin-top: 40px;
+    margin-left: 415px;
+}
