@@ -162,6 +162,10 @@ public class APPMenuServiceImpl implements APPMenuService {
 
     }
 
+    /**
+     * 查询所有软件基本信息
+     * @return
+     */
     @Override
     public List<AppInfo> findAll() {
         return appMenuDao.findAll();
@@ -179,23 +183,19 @@ public class APPMenuServiceImpl implements APPMenuService {
         String categoryLevel2 = (String) map.get("categoryLevel2");//获取二级分类name
         String categoryLevel3 = (String) map.get("categoryLevel3");//获取三级分类name
         String status = (String) map.get("status");         //获取状态
+        //向数据库拿appInfo需要的信息
         Integer flatFormValueID = this.findflatformValueIdByflatformName(flatForm);//获取所属平台Id
         Integer categoryId1 = this.findCategoryIdByCategoryName(categoryLevel1);//获取一级分类Id
         Integer categoryId2 = this.findCategoryIdByCategoryName(categoryLevel2);//获取二级分类Id
         Integer categoryId3 = this.findCategoryIdByCategoryName(categoryLevel3);//获取三级分类Id
         Integer statusValueId = this.findStatusValueIdByStatusName(status);     //获取状态Id
-        //获取开发者id（即创建者id）
+
+        //通过redis获取开发者id（即创建者id）
         String devCode = jedisPool.getResource().get("devCode");
-        DevUser devUser = devUserDao.findAll();
-        Integer devUserId = devUser.getId();    //开发者id
+        DevUser devUser = devUserDao.findDevUserByDevCode(devCode); //通过devCode查该用户信息
+        Integer devUserId = devUser.getId();       //开发者id
         Integer createdBy = devUser.getCreatedBy();//创建者id
 
-        /*map.put("flatForm", flatFormValueID);
-        map.put("categoryLevel1", categoryId1);
-        map.put("categoryLevel2", categoryId2);
-        map.put("categoryLevel3", categoryId3);
-        map.put("status", statusValueId);
-        map.put("logoLocPath", map.get("logoPicPath"));*/
         //将数据注入AppInfo中，再新增
         AppInfo appInfo = null;
         try {
@@ -204,26 +204,25 @@ public class APPMenuServiceImpl implements APPMenuService {
                     (String)map.get("APKName"),
                     (String)map.get("supportROM"),
                     (String)map.get("interfaceLanguage"),
-                    (Float) map.get("softwareSize"),
+                    Float.parseFloat(map.get("softwareSize").toString()),
                     devUserId,
                     (String)map.get("appInfo"),
                     statusValueId,
                     flatFormValueID,
                     categoryId3,
-                    0,
+                    (Integer) map.get("downloads"),
                     createdBy,       //创建者id就是当前开发者的id
-                    DateUtils.parseDate2String(new Date(), "yyyy.MM.dd-HH:mm:ss"),
+                    new Date(),
                     categoryId1,
                     categoryId2,
-                    (String)map.get("logoPicPath"),
-                    (String)map.get("logoPicPath")  //服务器图片路径就在图片路径中
+                    (String)map.get("imageFile"),
+                    (String)map.get("imageFile")  //服务器图片路径就在图片路径中
             );
+            appMenuDao.addAppInfo(appInfo);
         } catch (Exception e) {
             System.out.println("代码走catch了。。。。");
             e.printStackTrace();
         }
-        appMenuDao.addAppInfo(appInfo);
-
     }
 
     /**

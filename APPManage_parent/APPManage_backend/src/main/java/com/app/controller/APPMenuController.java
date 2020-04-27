@@ -10,10 +10,7 @@ import com.app.pojo.AppInfo;
 import com.app.service.APPMenuService;
 import com.app.utils.QiniuUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 import redis.clients.jedis.JedisPool;
 
@@ -67,7 +64,7 @@ public class APPMenuController {
      * @return
      */
     @RequestMapping("/upload")
-    public Result upload(@RequestParam("imageFile")MultipartFile imageFile){
+        public Result upload(@RequestParam("imageFile")MultipartFile imageFile){
         //将文件名换成uuid.jpg格式
         String originalFilename = imageFile.getOriginalFilename();
         int index = originalFilename.lastIndexOf(".");
@@ -76,12 +73,12 @@ public class APPMenuController {
         try {
             // 将文件上传到七牛云
             QiniuUtils.upload2Qiniu(imageFile.getBytes(), filename);
-            jedisPool.getResource().sadd(RedisConstant.PIC_RESOURCES);
+            jedisPool.getResource().sadd(RedisConstant.PIC_RESOURCES, filename);
         } catch (IOException e) {
             e.printStackTrace();
             return new Result(false, MessageConstant.PIC_UPLOAD_FAIL);
         }
-        return new Result(false, MessageConstant.PIC_UPLOAD_SUCCESS, "http://q8nm6aqk9.bkt.clouddn.com/" + filename);
+        return new Result(true, MessageConstant.PIC_UPLOAD_SUCCESS, "http://q8nm6aqk9.bkt.clouddn.com/" + filename);
     }
 
     /**

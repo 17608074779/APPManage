@@ -13,7 +13,8 @@ public class Test001 {
         for (Object s: set) {
             System.out.println(s);
         }*/
-        System.out.println(map.get("0001"));
+        //System.out.println(map.get("0001"));
+        System.out.println((String)map.get("07"));
 
     }
 }

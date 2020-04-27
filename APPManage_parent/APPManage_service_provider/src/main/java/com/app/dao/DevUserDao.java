@@ -9,4 +9,7 @@ public interface DevUserDao {
     DevUser findAll();
 
     DevUser login(DevUser devUser);
+
+    //通过devCode查该用户信息
+    DevUser findDevUserByDevCode(String devCode);
 }

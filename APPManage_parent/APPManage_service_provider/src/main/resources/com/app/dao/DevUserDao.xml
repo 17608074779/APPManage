@@ -8,8 +8,10 @@
         select * from dev_user where devCode = #{devCode} and devPassword = #{devPassword}
     </select>
 
-    <select id="findAll" resultType="com.app.pojo.DevUser">
-        select * from dev_user
+    <select id="findDevUserByDevCode" parameterType="string" resultType="com.app.pojo.DevUser">
+        select * from dev_user where devCode=#{value}
     </select>
+
+
 
 </mapper>
